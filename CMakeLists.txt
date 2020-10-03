@@ -211,7 +211,6 @@ if( ZMQPP_BUILD_TESTS )
   include_directories( ${Boost_INCLUDE_DIRS} )
 
   add_executable( zmqpp-test-runner
-    src/tests/test_actor.cpp
     src/tests/test_context.cpp
     src/tests/test_inet.cpp
     src/tests/test_load.cpp
